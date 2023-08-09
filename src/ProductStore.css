@@ -1,0 +1,112 @@
+.ProductImg {
+    display : flex;
+    flex : 1 1;
+    text-align: center;
+}
+
+.ProductDetailsAndSelection {
+    display : flex;
+    flex-direction: column;
+    flex : 1 1;
+    text-align: center;
+}
+
+.ProductDetails {
+    flex: 1 1;
+    
+}
+
+.Product {
+    flex-direction: column;
+    display : flex;
+    text-decoration: none;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.ProductShowcaseGrid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    grid-auto-columns: minmax(300px, auto);
+    text-decoration: none;
+
+}
+
+.Dashboard {
+    background-color: gainsboro;
+    margin-bottom : 10px;
+    display: flex;
+}
+
+.Title {
+    text-align: left;
+    font-size: 40px;
+    flex: 4 1;
+}
+
+.Cart {
+    text-align: left;
+    font-size: 40px;
+    flex: 1 1;
+}
+
+.CountBox {
+    width: 40px;
+    max-width: 100px;
+    max-height: 50px;
+    font-size: 32px;
+    display: inline-block;
+    background-color: white;
+    border-color: red;
+    border-style: outset;
+    border-width: 2px;
+    flex: 1 1;
+    text-align: center;
+}
+
+.ProductName {
+    flex: 4 4 ;
+}
+.SelectPanel {
+    flex: 1 1 ;
+    display: flex;
+    margin: auto;
+}
+
+.Plus, .Subtract{
+    flex: 1 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+a {
+  text-decoration: none;  
+  flex: 1 1;
+}
+
+.CartDetails {
+    font-size: 35px;
+    text-align:center;
+}
+
+.Bluetext {
+    color: blue;
+    display: inline;
+}
+
+.ProductDetailedInformation {
+    display: flex;
+    height:300px;
+}
+
+.ProductTextInformation {
+    flex: 2 1;
+    font-size: 20px;
+    text-align: center;
+}
